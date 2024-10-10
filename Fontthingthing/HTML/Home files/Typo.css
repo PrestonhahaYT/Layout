@@ -1,0 +1,164 @@
+body {
+  background-color: yellow;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+.header h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  font-weight: 260;
+  margin: 2px;
+  border: 2px;
+  width: 200%;
+  /* padding-left: 125px;
+  padding-right: 200px; */
+
+  background-color: greenyellow;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 9px;
+}
+.plutoAboutmeHead {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+  text-align: center;
+  padding-top: 20px;
+}
+.plutoAboutmePar {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+  text-align: center;
+}
+.plutoAboutmePic {
+  padding-left: 14%;
+}
+.plutoAboutme {
+  background-color: aquamarine;
+}
+.plutoFavActArea {
+  background-color: burlywood;
+}
+.plutoFavActHead {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: crimson;
+}
+.plutoFavActPar {
+  text-align: center;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.plutoFavActPic {
+  padding-left: 18%;
+}
+.plutoOriginStory {
+  background-color: yellowgreen;
+}
+.plutoOriginStoryHead {
+  text-align: center;
+  font-weight: bolder;
+}
+.plutoOriginStoryPar {
+  text-align: right;
+}
+.container > div {
+  border: 2px solid green;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (min-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    color: green;
+  }
+  .header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    font-weight: 260;
+    margin: 2px;
+    border: 2px;
+    width: 200%;
+    /* padding-left: 125px;
+    padding-right: 200px; */
+
+    background-color: greenyellow;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .plutoAboutmeHead {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: green;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .plutoAboutmePar {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: large;
+    text-align: center;
+  }
+  .plutoAboutmePic {
+    padding-left: 14%;
+  }
+  .plutoAboutme {
+    background-color: aquamarine;
+  }
+  .plutoFavActArea {
+    background-color: burlywood;
+  }
+  .plutoFavActHead {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: crimson;
+  }
+  .plutoFavActPar {
+    text-align: center;
+
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+  }
+  .plutoFavActPic {
+    padding-left: 18%;
+  }
+  .plutoOriginStory {
+    background-color: yellowgreen;
+  }
+  .plutoOriginStoryHead {
+    text-align: center;
+    font-weight: bolder;
+  }
+  .plutoOriginStoryPar {
+    text-align: right;
+  }
+  .container > div {
+    border: 2px solid green;
+  }
+}

@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  background-color: blue;
+  color: white;
+  margin: 0;
+  text-align: center;
+  height: 10vh;
+  width: 100%;
+  padding-top: 1rem;
+}
+footer {
+  background-color: blue;
+  color: white;
+  margin: 0;
+  text-align: center;
+  height: 10vh;
+  width: 100%;
+  padding-top: 1rem;
+}
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+/* .card-container {
+  
+} */
+.presudent-card img {
+  padding: 20px;
+  max-width: 100%;
+  border-radius: 200px;
+}
+.presudent-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: white;
+  max-width: 300px;
+  box-shadow: 0px 10px 10px 10px gray;
+  /* Space for noteable change in code --> Card container */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  padding: 20px;
+  /* Space for noteable change in code --> For descripshion*/
+  margin: 6vh;
+  text-align: center;
+
+  /* margian */
+}
+/* Space for noteable change in code .discription {
+  
+}*/
+.MAIN {
+  display: flex;
+
+  flex-flow: row wrap;
+  height: auto;
+}
+
+/* on your container look at flex direction and flex basis */
+/* take width off of main */
+/* move description in to the card */
